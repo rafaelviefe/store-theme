@@ -60,11 +60,28 @@
     ]
   },
 
+  // "search-result-layout.desktop": {
+  //   "children": [
+  //     "flex-layout.row#searchbread",
+  //     "flex-layout.row#searchtitle",
+  //     "flex-layout.row#result"
+  //   ],
+  //   "props": {
+  //     "pagination": "show-more",
+  //     "preventRouteChange": false,
+  //     "defaultGalleryLayout": "grid"
+  //   }
+  // },
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#result"
+      "breadcrumb.search",
+      "search-title.v2",
+      "total-products.v2",
+      "order-by.v2",
+      "search-fetch-previous",
+      "search-content",
+      "filter-navigator.v3",
+      "search-fetch-more"
     ],
     "props": {
       "pagination": "show-more",

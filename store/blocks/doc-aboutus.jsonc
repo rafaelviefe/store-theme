@@ -1,0 +1,39 @@
+{
+    "store.custom#doc-aboutus": {
+        "blocks": [
+            "flex-layout.row#doc-aboutus"
+        ]
+    },
+    "flex-layout.row#doc-aboutus": {
+        "children": [
+            "image#doc-aboutus",
+            "flex-layout.col#text-doc-aboutus"
+        ]
+    },
+    "flex-layout.col#text-doc-aboutus": {
+        "children": [
+        "rich-text#about-title",
+        "rich-text#about-content"
+        ],
+        "props": {
+        "preventVerticalStretch": true
+        }
+    },
+    "rich-text#about-title": {
+        "props": {
+            "text": "# About Minimum Theme"
+        }
+    },
+    "rich-text#about-content": {
+        "props": {
+            "text":
+                " ### *This is the VTEX Minimum Theme,* \n you can use it to test blocks usage and build your first store from scratch."
+        }
+    },
+    "image#doc-aboutus": {
+        "props": {
+        "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
+        "maxHeight": "600px"
+        }
+    }
+}

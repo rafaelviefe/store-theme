@@ -1,3 +1,39 @@
+.infoCardHeadline--vintage,
+.infoCardHeadline--clearance {
+  font-family: serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: black;
+  border: 2px solid black;
+  padding: 24px;
+}
+.infoCardCallActionContainer--vintage :global(.vtex-button),
+.infoCardCallActionContainer--clearance :global(.vtex-button) {
+  color: white;
+  background-color: gray;
+  border: transparent;
+  transition: .5s;
+}
+.infoCardCallActionContainer--vintage :global(.vtex-button):hover,
+.infoCardCallActionContainer--clearance :global(.vtex-button):hover {
+  color: gray;
+  background-color: white;
+  border: transparent;
+}
+.infoCardContainer--vintage {
+  background-color: #edcfd1;
+}
+.infoCardContainer--vintage,
+.infoCardContainer--clearance {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.imageElement--cover {
+  object-fit: cover;
+}
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
